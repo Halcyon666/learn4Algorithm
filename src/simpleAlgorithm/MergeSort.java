@@ -6,8 +6,10 @@ package simpleAlgorithm;
  */
 public class MergeSort {
     // todo implement Mergesort
-    // todo implement Heapsort
     // todo implement ShellSort
     // todo implement BaseSort
 
+    private static void mergeSort() {
+
+    }
 }
