@@ -3,6 +3,13 @@ package simpleAlgorithm;
 /**
  * @Author: WhaleFall541
  * @Date: 2021/6/9 22:05
+ * 算法思维：该算法是在插入排序的基础上优化的
+ * 插入元素下标`i`，从`0 ~ i-1`找插入该元素的位置，
+ * 现在不是一个个的比较，而是进行二分查找`left<=right`
+ * 不满足的时候，`right+1`即为当前`i`元素要插入的位置
+ *
+ * 当然插入之前 还是要移动一下元素的，从`right+1 ~ i-1`
+ * 位置整体后移
  */
 public class BinaryInsertion {
     public static void main(String[] args) {

@@ -3,7 +3,16 @@ package simpleAlgorithm;
 /**
  * @Author: WhaleFall541
  * @Date: 2021/6/12 16:43
- * @see <a href="https://www.bilibili.com/video/BV1Eb41147dK?t=1590">https://www.bilibili.com/video/BV1Eb41147dK?t=1590</a>
+ * [视频地址](https://www.bilibili.com/video/BV1Eb41147dK?t=1590)
+ * 算法思维：先初始化堆（从最大的非叶子节点开始，往前不断进行树化成大根堆）
+ * 再把头结点和最后一个节点互换位置，然后重新树化头结点，如此往复，每次排好一个
+ * 元素最差的情况需要走(n-1)趟互换。
+ *
+ * 如何树化树化i节点成大根堆呢？
+ *
+ * 比较树化节点i和其叶子节点的大小，如果发现有比i节点还大的则互换位置
+ * 然后去调整互换后的位置的节点直至到达叶子节点位置
+ * PS：互换之后，MAX值所在的根堆被破坏 需要进一步调整
  */
 public class HeapSort {
 
