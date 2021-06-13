@@ -1,6 +1,8 @@
 package simpleAlgorithm;
 
 
+import java.util.Arrays;
+
 /**
  * @Author: WhaleFall541
  * @Date: 2021/4/4 16:08
@@ -13,11 +15,7 @@ public class SelectSort {
     public static void main(String[] args) {
         int[] arr = {-1111, 20, -3, -10, 100, -255};
         selectSort(arr);
-
-        StringBuilder sb = new StringBuilder();
-        for (int i : arr)
-            sb.append(i).append(" ");
-        System.out.println("sb = " + sb);
+        System.out.println(Arrays.toString(arr));
 
     }
 

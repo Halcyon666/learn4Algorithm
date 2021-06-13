@@ -1,5 +1,7 @@
 package simpleAlgorithm;
 
+import java.util.Arrays;
+
 /**
  * @Author: WhaleFall541
  * @Date: 2021/6/9 22:05
@@ -14,11 +16,8 @@ package simpleAlgorithm;
 public class BinaryInsertion {
     public static void main(String[] args) {
         int[] arr = {-1, 20, -3, -10, 100, -255};
-        int[] ints = binaryInsertion(arr);
-        StringBuilder sb = new StringBuilder();
-        for (int i : ints)
-            sb.append(i).append(" ");
-        System.out.println("sb = " + sb);
+        binaryInsertion(arr);
+        System.out.println(Arrays.toString(arr));
     }
 
     public static int[] binaryInsertion(int[] arr) {

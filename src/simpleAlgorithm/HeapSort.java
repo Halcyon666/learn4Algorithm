@@ -1,5 +1,7 @@
 package simpleAlgorithm;
 
+import java.util.Arrays;
+
 /**
  * @Author: WhaleFall541
  * @Date: 2021/6/12 16:43
@@ -20,10 +22,7 @@ public class HeapSort {
 
         int[] arr = new int[]{4, 10, 3, 5, 1, 2};
         heapSort(arr);
-        StringBuilder sb = new StringBuilder();
-        for (int i : arr)
-            sb.append(i).append(" ");
-        System.out.println("sb = " + sb);
+        System.out.println(Arrays.toString(arr));
     }
 
     private static void heapSort(int[] arr) {

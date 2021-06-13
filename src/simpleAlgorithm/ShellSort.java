@@ -1,5 +1,7 @@
 package simpleAlgorithm;
 
+import java.util.Arrays;
+
 /**
  * @Author: WhaleFall541
  * @Date: 2021/6/12 22:59
@@ -18,10 +20,7 @@ public class ShellSort {
 
         shellSort(arr);
 
-        StringBuilder sb = new StringBuilder();
-        for (int i : arr)
-            sb.append(i).append(" ");
-        System.out.println("sb = " + sb);
+        System.out.println(Arrays.toString(arr));
 
         for (int i = 0; i < arr.length - 1; i++) {
             if (arr[i + 1] < arr[i])

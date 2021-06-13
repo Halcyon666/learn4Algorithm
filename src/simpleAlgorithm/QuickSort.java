@@ -1,5 +1,7 @@
 package simpleAlgorithm;
 
+import java.util.Arrays;
+
 /**
  * @Author: WhaleFall541
  * @Date: 2021/6/10 22:42
@@ -20,10 +22,7 @@ public class QuickSort {
         int[] arr = {-1, 20, -3, -10, 100, -255};
 
         quickSort(arr, 0, arr.length - 1);
-        StringBuilder sb = new StringBuilder();
-        for (int i : arr)
-            sb.append(i).append(" ");
-        System.out.println("sb = " + sb);
+        System.out.println(Arrays.toString(arr));
     }
 
     private static void quickSort(int[] arr, int low, int high) {

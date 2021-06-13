@@ -3,7 +3,7 @@ package simpleAlgorithm;
 /**
  * @Author: WhaleFall541
  * @Date: 2021/6/11 20:40
- * [github仓库地址]()
+ * [github仓库地址](https://github.com/whalefall541/learn4Algorithm)
  * [视频链接](https://www.bilibili.com/video/BV1Ax411U7Xx?from=search&seid=2724712095992885035)
  * 算法思路：将两个局部有序的数组归并为一个有序的数组
  * 归并过程：i,j两个指针指向两个数组，分别比较该位置上值的大小

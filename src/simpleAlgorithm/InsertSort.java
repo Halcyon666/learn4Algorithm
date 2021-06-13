@@ -1,5 +1,7 @@
 package simpleAlgorithm;
 
+import java.util.Arrays;
+
 /**
  * @Author: WhaleFall541
  * @Date: 2021/6/12 23:20
@@ -12,10 +14,7 @@ public class InsertSort {
 
         int[] arr = {-1111, 20, -3, -10, 100, -255};
         insertSort(arr);
-        StringBuilder sb = new StringBuilder();
-        for (int i : arr)
-            sb.append(i).append(" ");
-        System.out.println("sb = " + sb);
+        System.out.println(Arrays.toString(arr));
 
     }
 
