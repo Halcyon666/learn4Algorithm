@@ -1,4 +1,4 @@
-package leetcode.simple;// 此案例为Java版本 会输出所有的匹配模式串的位置
+package simpleAlgorithm;// 此案例为Java版本 会输出所有的匹配模式串的位置
 
 /**
  * @Author: WhaleFall541
